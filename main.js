@@ -64,6 +64,11 @@ class Colour {
 	}
 }
 
+function copyToClipboard(){
+
+	alert("Congratulations! You have your code copied.")
+}
+
 const colour_elements = document.querySelectorAll('.colors .color');
 
 const colours = [];
