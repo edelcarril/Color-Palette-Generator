@@ -28,7 +28,7 @@
 				
 				<input type="text" class="color-input" value="#000000" />
 
-				<button class="copy-hex">Copy</button>
+				<button class="copy-hex" onclick="copyToClipboard()">Copy</button>
                 
 			</div>
 			<div class="color">
@@ -38,7 +38,7 @@
 				
 				<input type="text" class="color-input" value="#000000" />
 
-				<button class="copy-hex">Copy</button>
+				<button class="copy-hex" onclick="copyToClipboard()">Copy</button>
 			</div>
 			<div class="color">
 				<button class="lock-toggle">
@@ -47,7 +47,7 @@
 				
 				<input type="text" class="color-input" value="#000000" />
 
-				<button class="copy-hex">Copy</button>
+				<button class="copy-hex" onclick="copyToClipboard()">Copy</button>
 			</div>
 			<div class="color">
 				<button class="lock-toggle">
@@ -56,11 +56,29 @@
 				
 				<input type="text" class="color-input" value="#000000" />
 
-				<button class="copy-hex">Copy</button>
+				<button class="copy-hex" onclick="copyToClipboard()">Copy</button>
 			</div>
 		</div>
 	</main>
 
+	<h1 class="gradient-title">Gradient Generator</h1>
+    <div id="radio-options">
+        <input type="radio" id="linear" name="gradient" value="linear" checked="true"> 
+    </div>
+   
+
+ 
+	
+    <div class="gradient">
+		<div class="slide-wrapper"> 
+			<div class="colors-div">
+				 <input type="color" id="color1" value="#EB8B68"> 
+			<input type="color" id="color2" value="#3c7981">  
+			</div>
+		</div>
+
+	</div>
+ 
 	<script src="main.js"></script>
 </body>
 </html>
